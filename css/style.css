@@ -35,22 +35,22 @@ body {
 
 .topmenu li {
 	display: inline-block;
-	padding: 12px 20px;
 	margin-right: 45px;
 }
 
 .topmenu a {
-	padding: 0;
+	display: block;
+	padding: 12px 20px;
 	text-decoration: none;
 	font-family: Tahoma;
-	font-size: 14.67px;
+	font-size: 15px;
 	color: #fff;
 }
 
-.topmenu li:hover {
+.topmenu li:hover a {
+	padding: 12px 19px;
 	border-left: 1px solid #838383;
 	border-right: 1px solid #838383;
-	padding: 12px 19px;
 	background: #434343;
 }
 
@@ -61,26 +61,26 @@ body {
 }
 
 .leftmenu li {
- 	padding: 12px 20px;
  	border: 1px solid #c8c8c8;
  	margin-bottom: -1px;
 
 }
 
-.leftmenu a {
- 	text-decoration: none;
+.leftmenu li a {
+	display: block;
+	padding: 12px 20px;
+	text-decoration: none;
  	font-family: Tahoma;
-	font-size: 14.67px;
+	font-size: 15px;
 	color: #656363;
 }
 
-.leftmenu li a:hover {
- 	padding-left: 10px; 	
- 	color: #000;
-}
 
-.leftmenu li:hover {
-	background: #f9f9f9;
+
+.leftmenu li a:hover {
+ 	padding-left: 30px; 	
+ 	color: #000;
+ 	background: #f9f9f9;
 }
 
 .content {
@@ -92,7 +92,7 @@ body {
 .text {
 	padding: 40px 27px 0;
 	font-family: Tahoma;
- 	font-size: 13.33px;
+ 	font-size: 13px;
  	color: #2c2c2c;
  	line-height: 1.5;
 }
@@ -115,7 +115,7 @@ body {
 .bottommenu a {
 	text-decoration: none;
 	font-family: Tahoma;
-	font-size: 13.33px;
+	font-size: 13px;
 	color: #2c2c2c;
 }
 
@@ -127,5 +127,5 @@ body {
 	margin-right: 0;
 	float: right;
 	font-family: Tahoma;
-	font-size: 13.33px;
+	font-size: 13px;
 }
